@@ -1,0 +1,51 @@
+html[theme='default']:root {
+  --header-bg-color: #2a73bb; // 标题栏背景颜色
+  --tag-active-text-color: var(--header-bg-color); // 激活路由字体颜色
+  --tag-active-bg-color: var(--body-bg); // 激活路由背景颜色
+  --menu-bg-color: #1c232f; // 左侧菜单栏背景颜色
+  --menu-hover-color: #111111; // 左侧菜单栏鼠标悬浮时的背景颜色
+  --menu-active-color: #ffd04b; // 左侧菜单栏选中的字体颜色
+  --menu-text-color: #ffffff; // 菜单的字体颜色
+  --header-text-color: #ffffff; // 头部字体颜色
+  --body-bg: #edf0f5; // 页面背景颜色或者图片属性
+  --card-bg-color: #ffffff; // 页面卡片背景颜色
+}
+
+html[theme='light']:root {
+  --header-bg-color: #ebf1f6; // 标题栏背景颜色
+  --tag-active-text-color: #2f74ff; // 激活路由字体颜色
+  --tag-active-bg-color: #ffffff; // 激活路由背景颜色
+  --menu-bg-color: #ebf1f6; // 左侧菜单栏背景颜色
+  --menu-hover-color: #ffffff; // 左侧菜单栏鼠标悬浮时的背景颜色
+  --menu-active-color: #2f74ff; // 左侧菜单栏选中的字体颜色
+  --menu-text-color: #606266; // 菜单的字体颜色
+  --header-text-color: #606266; // 头部字体颜色
+  --body-bg: #ebf1f6; // 页面背景颜色或者图片属性
+  --card-bg-color: #ffffff; // 页面卡片背景颜色
+}
+
+html[theme='dark']:root {
+  --header-bg-color: #1c232f; // 标题栏背景颜色
+  --tag-active-text-color: var(--header-bg-color); // 激活路由字体颜色
+  --tag-active-bg-color: var(--body-bg); // 激活路由背景颜色
+  --menu-bg-color: #1c232f; // 左侧菜单栏背景颜色
+  --menu-hover-color: #111111; // 左侧菜单栏鼠标悬浮时的背景颜色
+  --menu-active-color: #ffd04b; // 左侧菜单栏选中的字体颜色
+  --menu-text-color: #eeeeee; // 菜单的字体颜色
+  --header-text-color: #eeeeee; // 头部字体颜色
+  --body-bg: #ebf1f6; // 页面背景颜色或者图片属性
+  --card-bg-color: #ffffff; // 页面卡片背景颜色
+}
+
+html[theme='science']:root {
+  --header-bg-color: rgba(0, 0, 0, 0.2); // 标题栏背景颜色
+  --tag-active-text-color: #ffd04b; // 激活路由字体颜色
+  --tag-active-bg-color: transparent; // 激活路由背景颜色
+  --menu-bg-color: rgba(0, 0, 0, 0.2); // 左侧菜单栏背景颜色
+  --menu-hover-color: rgba(0, 0, 0, 0.3); // 左侧菜单栏鼠标悬浮时的背景颜色
+  --menu-active-color: #ffd04b; // 左侧菜单栏选中的字体颜色
+  --menu-text-color: #eeeeee; // 菜单的字体颜色
+  --header-text-color: #eeeeee; // 头部字体颜色
+  --body-bg: url('@/assets/images/water-car.jpg') 0 / cover no-repeat padding-box; // 页面背景颜色或者图片属性
+  --card-bg-color: rgba(255, 255, 255, 0.8); // 页面卡片背景颜色
+}

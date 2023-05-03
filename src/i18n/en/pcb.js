@@ -1,0 +1,18 @@
+export default {
+  addPcb: 'Add PCB Info',
+  editPcb: 'Edit PCB Info',
+  pcbPn: 'PCB number',
+  productName: 'Product name',
+  pcbWidth: 'PCB width',
+  pcbLength: 'PCB length',
+  pcbThickness: 'PCB thickness',
+  description: 'Description',
+  side: 'Side',
+  arrayCount: 'Array count',
+  conveyorWidth: 'Conveyor width',
+  pcbPnRequired: 'Please input pcb number',
+  productNameRequired: 'Please select product name',
+  pcbWidthRequired: 'Please input pcb width',
+  arrayCountRequired: 'Please input array count',
+  conveyorWidthRequired: 'Please input Conveyor Width',
+}

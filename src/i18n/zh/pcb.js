@@ -1,0 +1,18 @@
+export default {
+  addPcb: '添加PCB信息',
+  editPcb: '编辑PCB信息',
+  pcbPn: 'PCB料号',
+  productName: '产品名',
+  pcbWidth: 'PCB宽度',
+  pcbLength: 'PCB长度',
+  pcbThickness: 'PCB厚度',
+  description: '描述',
+  side: '面别',
+  arrayCount: '拼板个数',
+  conveyorWidth: '轨道宽度',
+  pcbPnRequired: '请输入PCB料号',
+  productNameRequired: '请输入产品名称',
+  pcbWidthRequired: '请输入PCB宽度',
+  arrayCountRequired: '请输入拼板个数',
+  conveyorWidthRequired: '请输入轨道宽度',
+}
